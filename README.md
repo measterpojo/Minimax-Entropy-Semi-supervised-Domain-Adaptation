@@ -9,7 +9,6 @@ Minimizing entropy ensures the feature extractor learns domain-invariant feature
 
 minimax entropy-based domain adaptation is feature-based. It focuses on aligning feature distributions between the source and target domains to reduce domain mismatch. By alternately maximizing and minimizing entropy, the method ensures that the features are both diverse and structured, enabling better generalization across
 
-
 Conclusion
 
 results confirm steady progress in supervised learning, with both source and target supervised losses decreasing consistently. This means the model is effectively leveraging labeled data from both domains. Meanwhile, your encoder and classifier entropy losses are growing, which aligns with the expected behavior in a Minimax Entropy framework. However, the rapid growth of entropy losses still warrants careful attention.
